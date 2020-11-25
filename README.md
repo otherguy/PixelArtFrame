@@ -10,6 +10,6 @@ In order to convert the `.png` to our 24bit bitmaps, use the following command:
 	$ mkdir bitmaps
 	$ ls -1 images/*.png | xargs -n 1 bash -c 'convert -type TrueColor -flatten -background "#000000" "$0" "BMP2:bitmaps/`basename ${0%.*}`.bmp"'
 	
-You need ImageMagick installed for that:
+You need [ImageMagick](https://imagemagick.org/) installed for that:
 
 	$ brew install imagemagick
