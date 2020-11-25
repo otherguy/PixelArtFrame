@@ -1,5 +1,14 @@
 # 👾 Pixel Art Frame
 
+Hero Image goes here
+
+Introduction goes here....
+
+## Hardware
+
+## Build
+
+## Software
 
 ## Prepare Images
 
